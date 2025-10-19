@@ -7,5 +7,7 @@ namespace PieceOfArtSystem.Data
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
+
+        //updated
     }
 }
