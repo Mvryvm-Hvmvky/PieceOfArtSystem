@@ -1,6 +1,11 @@
-﻿namespace PieceOfArtSystem.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace PieceOfArtSystem.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext(DbContextOptions options) : base(options)
+        {
+        }
     }
 }
